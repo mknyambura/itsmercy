@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 // import resumePDF from "../components/MercyFaithKariukiResume.pdf"
 
 const LandingNavbar = () => {
   const [open, setOpen] = useState(true);
-  const [isClicked, setIsClicked] = useState(false);
+  // const [isClicked, setIsClicked] = useState(false);
 
   const handleclick = () => {
     setOpen(!open);
