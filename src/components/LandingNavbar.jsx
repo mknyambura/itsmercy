@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import resumePDF from "../components//Mercy--Faith--Kariuk--Resume.pdf"
+// import resumePDF from "../components/MercyFaithKariukiResume.pdf"
 
 const LandingNavbar = () => {
   const [open, setOpen] = useState(true);
@@ -61,10 +61,11 @@ const LandingNavbar = () => {
             </li>
             <li className="">
               <Link
-                href={resumePDF}
+                href="/MercyFaithKariukiResume.pdf"
                 className="font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500"
                 target="_blank"
                 rel="noreferrer"
+                download="MercyFaithKariukiResume.pdf"
               >
                 Resume
               </Link>

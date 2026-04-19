@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Landing from './components/Landing'
@@ -9,7 +9,7 @@ import RD from './components/RD'
 import Resume from './components/Resume'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
