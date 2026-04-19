@@ -38,7 +38,7 @@ const Landing = () => {
           </h1>
           <div className="flex flex-row gap-8">
             <a
-              href="https://www.linkedin.com/in/mercy-nyambura-kariuki/"
+              href="https://www.linkedin.com/in/mercy-faith-kariuki/"
               target="_blank"
               rel="noreferrer"
             >
@@ -219,7 +219,7 @@ const Landing = () => {
           <div className="flex flex-row items-center gap-3">
             <button
               className=" m-2  w-1/2 md:3/4 lg:w-1/2 px-7 py-5  md:px-8 md:py-6  lg:px-6 lg:py-6    bg-white shadow-xl shadow-slate-400 rounded-full">
-              <a href="mailto:kariuki.mercie@gmail.com">
+              <a href="mailto:mercyfaith.kariuki@gmail.com">
                 <TfiEmail className="text-[#FF9B00] font-bold text-5xl" />
               </a>
             
@@ -228,10 +228,10 @@ const Landing = () => {
             <div>
               <h1 className="font-bold text-2xl">Mail</h1>
               <a
-                href="mailto:kariuki.mercie@gmail.com"
+                href="mailto:mercyfaith.kariuki@gmail.com"
                 className="text-black/30 text-xl font-light hover:text-[#FF9B00] hover:ease-in-out duration-500"
               >
-                kariuki.mercie@gmail.com
+                mercyfaith.kariuki@gmail.com
               </a>
             </div>
           </div>

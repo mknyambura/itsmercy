@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import resumePDF from "../components//Mercy--Faith--Kariuk--Resume.pdf"
 
 const LandingNavbar = () => {
   const [open, setOpen] = useState(true);
@@ -60,7 +61,7 @@ const LandingNavbar = () => {
             </li>
             <li className="">
               <Link
-                to="/resume"
+                href={resumePDF}
                 className="font-semibold hover:font-bold active:text-[#FF9B00] hover:transition-all hover:duration-500"
                 target="_blank"
                 rel="noreferrer"
